@@ -5,6 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 // base: "/KRB-final/" — o site será publicado em
 // https://usuario.github.io/KRB-final/ (nome do repositório: KRB-final).
 export default defineConfig({
-  base: "/KRB-final/",
+  base: "/krb./",
   plugins: [react(), tailwindcss()],
 });
